@@ -102,22 +102,28 @@ jQuery(document).ready(function() {
         }
     });
 
-    // scroll top
-    $('#link-top').click(function() {
-        $('body,html').animate({
-            scrollTop: 0
-        }, 1500);
-        return false;
-    });
-
-    $('#link-top').hide();
+    // floating appointment button
+    $('#float-appointment').hide();
     $(window).scroll(function() {
         if ($(this).scrollTop() > 50) {
-            $('#link-top').fadeIn();
+            $('#float-appointment').fadeIn();
         } else {
-            $('#link-top').fadeOut();
+            $('#float-appointment').fadeOut();
         }
     });
+
+    (function cycleFloatAppointment() {
+        var $btn = $('#float-appointment');
+        if (!$btn.length) {
+            return;
+        }
+
+        $btn.removeClass('show-tooth');
+        setTimeout(function() {
+            $btn.addClass('show-tooth');
+            setTimeout(cycleFloatAppointment, 3000);
+        }, 4000);
+    })();
 
     // scroll menu
     $(".main-menu").on("click", "a", function(event) {
