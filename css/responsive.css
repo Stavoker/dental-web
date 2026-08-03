@@ -1,0 +1,232 @@
+@media all and (max-width: 1300px) {
+    .excellence.wrapper {
+        position: static;
+        -webkit-transform: translate(0%, 0%);
+        -ms-transform: translate(0%, 0%);
+        transform: translate(0%, 0%);
+    }
+    .excellence.wrapper.flex-row {
+        -webkit-box-pack: start;
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+    }
+    .excellence.wrapper.flex-row>div {
+        width: 50%;
+    }
+    .excellence.wrapper.flex-row>div img {
+        margin: 0 auto;
+    }
+    #about .about-img .about-years {
+        -webkit-transform: translateX(0%);
+        -ms-transform: translateX(0%);
+        transform: translateX(0%);
+    }
+    #about {
+        padding-top: 30px;
+    }
+    .excellence.wrapper + #seo-intro {
+        padding-top: 60px;
+    }
+}
+@media all and (max-width: 1000px) {
+    .header-top {
+        display: none;
+    }
+    .wrapp-menu-callback.flex-row {
+        position: fixed;
+        top: 0;
+        left: -330px;
+        bottom: 0;
+        height: 100vh;
+        width: 320px;
+        padding: 20px;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        background-color: #004d61;
+        -webkit-box-shadow: 2px 0px 10px #004d61;
+        box-shadow: 2px 0px 10px #004d61;
+        display: block;
+        z-index: 1000000;
+    }
+    #open-menu,
+    #close-menu {
+        display: inline-block;
+    }
+    #close-menu {
+        float: right;
+    }
+    .header-bottom .main-menu li {
+        float: none;
+        margin-left: 0px;
+        clear: both;
+        margin-bottom: 20px;
+    }
+    .wrapp-menu-callback .header-bottom-callback {
+        margin-left: 0px;
+        margin-top: 30px;
+    }
+    .flex-row.single-service {
+        width: 50%;
+    }
+}
+@media all and (max-width: 860px) {
+    .slider-mainpage-content.wrapper h1,
+    .slider-mainpage-content.wrapper h2 {
+        font-size: 45px;
+    }
+    .excellence.wrapper.flex-row>div h2 {
+        font-size: 25px;
+    }
+    .slider-mainpage-content.wrapper {
+        text-align: center;
+    }
+    #about .about-img img {
+        margin: 0 auto;
+    }
+    #about .about-content {
+        padding-left: 0px;
+    }
+    #faq .wrapper.flex-row .faq-img img {
+        margin: 0 auto;
+    }
+    #faq .wrapper.flex-row .faq-content,
+    #appointment .wrapper.flex-row .form-appointment,
+    #appointment .wrapper.flex-row .working-hours,
+    #about .about-content,
+    #faq .wrapper.flex-row .faq-img,
+    #about .about-img,
+    .seo-block-img,
+    .seo-block-content {
+        width: 100%;
+    }
+    #faq .wrapper.flex-row .faq-content {
+        padding-left: 0px;
+    }
+    #pricing .wrapp-plans.flex-row>div,
+    #portfolio .wrapper.flex-row>div {
+        width: 48%;
+    }
+    #appointment .wrapper.flex-row .form-appointment,
+    #faq .wrapper.flex-row .faq-img,
+    #about .about-img,
+    .seo-block-img {
+        margin-bottom: 50px;
+    }
+    .seo-block-content,
+    .seo-block-reverse .seo-block-content {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .seo-block-reverse {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+    #appointment .wrapper.flex-row .form-appointment {
+        padding-right: 0px;
+    }
+    #contact .wrapper.flex-row .contact-content,
+    #contact .wrapper.flex-row .contact-map {
+        width: 50%;
+    }
+}
+@media all and (max-width: 670px) {
+    .slider-mainpage-content.wrapper h1,
+    .slider-mainpage-content.wrapper h2 {
+        font-size: 28px;
+    }
+    #pricing h2,
+    #local-seo h2,
+    #faq h2,
+    #appointment h2,
+    #callback h2,
+    #testimonials h2,
+    #about .about-content > h2,
+    .kids-promo h2 {
+        font-size: 24px;
+        line-height: 1.3;
+    }
+    #pricing {
+        background-size: 200px;
+        background-position: top 20px right -40px;
+    }
+    #pricing .pricing-actions {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 12px;
+        max-width: 100%;
+    }
+    #pricing .pricing-actions .btn {
+        width: 100%;
+        text-align: center;
+        box-sizing: border-box;
+    }
+    .excellence.wrapper.flex-row>div,
+    .flex-row.single-service,
+    #pricing .wrapp-plans.flex-row>div,
+    #portfolio .wrapper.flex-row>div,
+    .wrapper-form.flex-row .wrapper-input,
+    #contact .wrapper.flex-row .contact-content,
+    #contact .wrapper.flex-row .contact-map {
+        width: 100%;
+    }
+    .wrapper-form.flex-row .wrapper-input {
+        margin-bottom: 20px;
+    }
+    #contact .wrapper.flex-row .contact-content {
+        margin-bottom: 50px;
+    }
+}
+@media all and (max-width: 550px) {
+    header {
+        position: static;
+        background-color: #004d61;
+    }
+    .slider-mainpage-content.wrapper h1,
+    .slider-mainpage-content.wrapper h2 {
+        font-size: 22px;
+    }
+    #pricing h2,
+    #local-seo h2,
+    #faq h2,
+    #appointment h2,
+    #callback h2,
+    #testimonials h2,
+    .kids-promo h2 {
+        font-size: 20px;
+    }
+}
+@media all and (max-width: 360px) {
+    .slider-mainpage-content.wrapper h1,
+    .slider-mainpage-content.wrapper h2 {
+        font-size: 20px;
+    }
+    #about .about-content h1,
+    #about .about-content h2,
+    #services h2,
+    #our-team h2,
+    #faq h2,
+    #pricing h2,
+    #callback h2,
+    #portfolio h2,
+    #testimonials h2,
+    #appointment h2,
+    #contact h2 {
+        font-size: 30px;
+    }
+}
+
+@media all and (min-width: 1301px) {
+    #seo-intro {
+        padding-bottom: 30px;
+    }
+
+    #seo-intro .seo-block:last-child {
+        padding-bottom: 25px;
+    }
+
+    #about {
+        padding-top: 80px;
+    }
+}
